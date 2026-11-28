@@ -9,8 +9,10 @@ export default function Header() {
         <a className="font-bold uppercase text-blanco hover:text-niebla focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-niebla hover:text-secundario-claro" href="#desarrollo">Development update</a>
         <a className="font-bold uppercase text-blanco hover:text-niebla focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-niebla hover:text-secundario-claro" href="#equipo">About us</a>
       </nav>
-      <ThemeButton/>
-      <button type="button" className="py-3 px-5 bg-primario-suave text-primario font-bold rounded-md cursor-pointer shadow-primario-claro shadow-b duration-150 hover:translate-y-0.5 hover:shadow-b-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secundario-claro">Add to wishlist!</button>
+      <div className='flex gap-5'>
+        <ThemeButton/>
+        <button type="button" className="py-3 px-5 bg-primario-suave text-primario font-bold rounded-md cursor-pointer shadow-primario-claro shadow-b duration-150 hover:translate-y-0.5 hover:shadow-b-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secundario-claro">Add to wishlist!</button>
+      </div>
     </header>
   )
 }
