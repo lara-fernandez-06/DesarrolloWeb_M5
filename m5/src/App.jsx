@@ -6,7 +6,7 @@ import Info from './components/Info'
 function App() {
 
   return (
-    <div className='bg-carbon'>
+    <div className='bg-fondo'>
       <Header/>
       <Info/>
     </div>
