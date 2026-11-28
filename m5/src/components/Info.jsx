@@ -16,7 +16,7 @@ export default function Info(){
             <div className="mb-12 flex flex-col items-center gap-4 text-center">
                 <h1 className="drop-shadow-b drop-shadow-primario">
                     {/*lo que hacemos es el degradado y lo clipeamos a las letras*/}
-                    <span className="bg-linear-to-b from-texto to-primario-suave bg-clip-text text-4xl font-black uppercase tracking-widest text-transparent sm:text-6xl md:text-7xl">
+                    <span className="bg-linear-to-b from-titulo-arriba to-titulo-abajo bg-clip-text text-4xl font-black uppercase tracking-widest text-transparent sm:text-6xl md:text-7xl">
                     Cubos Mayanos
                     </span>
                 </h1>
@@ -26,7 +26,7 @@ export default function Info(){
                 {tarjetas.map((tarjeta) => (
                 <article key={tarjeta.titulo} className="overflow-hidden rounded-md border-b-4 border-primario-claro bg-primario">
                     <img className="aspect-video w-full object-cover" src={tarjeta.imagen} alt="" />
-                    <h3 className="p-4 text-center text-xl font-bold uppercase text-texto">{tarjeta.titulo}</h3>
+                    <h3 className="p-4 text-center text-xl font-bold uppercase text-blanco">{tarjeta.titulo}</h3>
                 </article>
                 ))}
             </div>
