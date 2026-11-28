@@ -9,7 +9,7 @@ export default function BotonTema() {
     <button
       type="button"
       onClick={() => document.documentElement.classList.toggle('dark')}
-      className="cursor-pointer rounded-md border-2 border-primario-claro px-3 py-2 font-bold text-texto"
+      className="cursor-pointer rounded-md border-2 border-primario-claro px-3 py-2 font-bold text-blanco"
     >
       <span className="dark:hidden">Modo oscuro</span>
       <span className="hidden dark:inline">Modo claro</span>
