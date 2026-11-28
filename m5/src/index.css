@@ -1,3 +1,16 @@
+@import "tailwindcss";
+
+@theme{
+  --color-verdeoscuro: #21382d;
+  --color-verdeclaro: #5c7f63;
+  --color-verdesuave: #a8c3a0;
+  --color-blanco: #e6e8e4;
+  --color-azulclaro: #a3c4d4;
+
+  --shadow-boton: 0 4px 0;
+  --shadow-boton-hover: 0 2px 0;
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
